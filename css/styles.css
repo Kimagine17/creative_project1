@@ -34,8 +34,8 @@ body {
     /* height: 100; */
     background-color: #ff12a7;
     width: 90%;
-    height: 100%;
-    margin: 10% auto 10% auto;
+    /* height: 100%; */
+    margin: 0% auto 10% auto;
 }
 
 a {
