@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.masonry { /* Masonry container */
+    margin: .75em auto;
+    max-width: 95%;
+    column-gap: .75em;
+    column-count: 1;
+}
+  
+.item { /* Masonry bricks or child elements */
+    background: #004aad;
+    padding: 1.3em;
+    border-radius: 10px;
+    margin: 0em 0em 1em 1em;
+    color: #ffde59;
+}
+
+h3 {
+    padding: 30px 0px 10px;
+}
+/* Masonry on small screens */
+@media only screen and (max-width: 899px) and (min-width: 540px) {
+    .masonry {
+      column-count: 2;
+    }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1199px) and (min-width: 900px) {
+    .masonry {
+      column-count: 3;
+    }
+}
+/* Masonry on large-sized screens */
+@media only screen and (min-width: 1200px) {
+    .masonry {
+        column-count: 4;
+        max-width: 90%;
+    }
+}

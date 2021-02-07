@@ -82,6 +82,14 @@ a {
     color:#13fa58 !important;
 } */
 
+p, h2, h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 4px;
+    color: #ffde59;
+    margin: auto;
+    padding: 20px 30px;
+}
+
 .photo {
     width: 100%;
 }
