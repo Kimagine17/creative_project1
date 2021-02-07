@@ -95,6 +95,7 @@ p, h2, h3{
 }
 
 .wrapper {
+    width: 100%;
     align-content: center;
     min-height: 90%;
     /* Equal to height of footer */
@@ -106,7 +107,11 @@ p, h2, h3{
 }
   
 .column {
+    border: 3px #004aad;
     flex: 10%;
     text-align: center;
     padding: 50px;
+}
+.column p{
+    padding: 0px;
 }
