@@ -93,3 +93,20 @@ p, h2, h3{
 .photo {
     width: 100%;
 }
+
+.wrapper {
+    align-content: center;
+    min-height: 90%;
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+}
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 10%;
+    text-align: center;
+    padding: 50px;
+}
